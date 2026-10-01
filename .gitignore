@@ -149,6 +149,18 @@ activemq-data/
 
 # Environments
 .env
+.env.*
+!.env.example
+state/
+archive/
+reports/
+*.parquet
+*.manifest.json
+*.sqlite
+*.sqlite3
+__pycache__/
+.pytest_cache/
+.venv/
 .envrc
 .venv
 env/
