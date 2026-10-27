@@ -1,0 +1,7 @@
+{
+  "invalid_or_exhausted_at_signal": 3,
+  "bracket_touched_before_arrival": 5,
+  "after_entry_cutoff": 2,
+  "precommitted_cost_ceiling": 25,
+  "position_busy_at_open": 2
+}

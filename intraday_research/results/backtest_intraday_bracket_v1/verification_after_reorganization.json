@@ -1,0 +1,232 @@
+{
+  "status": "passed",
+  "unit_test_count_passed_before_is": 23,
+  "unit_test_command": ".venv/Scripts/python.exe -m unittest discover -s intraday_research/code -p test_intraday_bracket_backtest.py -v",
+  "original_is_oos_spec_code_and_input_hashes_identical": true,
+  "source_provenance": {
+    "mode": "archived_original_and_guarded_relocated_source",
+    "original_sha256": "1caf010951aca16c5a0ba26cadb23514b2a7f2635b259dce558f52e57220ef8b",
+    "original_source": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\intraday_research\\archive\\pre_reorganization\\intraday_bracket_backtest.py",
+    "active_sha256": "9310ea02b7571778eab6d97fb8a611aee7740a2f51ffac86cb5a6d617c41ab53",
+    "active_source": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\intraday_research\\code\\intraday_bracket_backtest.py"
+  },
+  "oos_rerun_during_verification": false,
+  "hashes": {
+    "spec_sha256": "ef5a9b72f435ab24593bb6e7c199ed226ba1b0cc89d1cd0bc35ba9c441da15be",
+    "spec_document_sha256": "3f84dfcb5a9e6e7357fd583449f44d082a6a51b7edf9b86dbdba97591fe55f23",
+    "aligned_input_sha256": "aae4ff31deb3814ebe58c9290f1e7402f41a21fe52e8c156e7e01e12d1242f9c",
+    "execution_input_sha256": "d696e525330494f1891c70a127d04a508e5d0af564edf59192fe428a5cc98bd6"
+  },
+  "runs": [
+    {
+      "partition": "is",
+      "case": "primary",
+      "portfolio": "A_continuation",
+      "trades": 27,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "primary",
+      "portfolio": "B_shock_recovery",
+      "trades": 2,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "primary",
+      "portfolio": "AB_one_position",
+      "trades": 29,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "boundary_reference",
+      "portfolio": "A_continuation",
+      "trades": 29,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "boundary_reference",
+      "portfolio": "B_shock_recovery",
+      "trades": 6,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "boundary_reference",
+      "portfolio": "AB_one_position",
+      "trades": 35,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "slippage_stress",
+      "portfolio": "A_continuation",
+      "trades": 27,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "slippage_stress",
+      "portfolio": "B_shock_recovery",
+      "trades": 2,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "slippage_stress",
+      "portfolio": "AB_one_position",
+      "trades": 29,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "no_cost_gate_diagnostic",
+      "portfolio": "A_continuation",
+      "trades": 54,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "no_cost_gate_diagnostic",
+      "portfolio": "B_shock_recovery",
+      "trades": 13,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "no_cost_gate_diagnostic",
+      "portfolio": "AB_one_position",
+      "trades": 66,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "tp_first_diagnostic",
+      "portfolio": "A_continuation",
+      "trades": 27,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "tp_first_diagnostic",
+      "portfolio": "B_shock_recovery",
+      "trades": 2,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "is",
+      "case": "tp_first_diagnostic",
+      "portfolio": "AB_one_position",
+      "trades": 29,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "primary",
+      "portfolio": "A_continuation",
+      "trades": 17,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "primary",
+      "portfolio": "B_shock_recovery",
+      "trades": 6,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "primary",
+      "portfolio": "AB_one_position",
+      "trades": 23,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "boundary_reference",
+      "portfolio": "A_continuation",
+      "trades": 17,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "boundary_reference",
+      "portfolio": "B_shock_recovery",
+      "trades": 6,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "boundary_reference",
+      "portfolio": "AB_one_position",
+      "trades": 23,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "slippage_stress",
+      "portfolio": "A_continuation",
+      "trades": 17,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "slippage_stress",
+      "portfolio": "B_shock_recovery",
+      "trades": 6,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "slippage_stress",
+      "portfolio": "AB_one_position",
+      "trades": 23,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "no_cost_gate_diagnostic",
+      "portfolio": "A_continuation",
+      "trades": 32,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "no_cost_gate_diagnostic",
+      "portfolio": "B_shock_recovery",
+      "trades": 12,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "no_cost_gate_diagnostic",
+      "portfolio": "AB_one_position",
+      "trades": 44,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "tp_first_diagnostic",
+      "portfolio": "A_continuation",
+      "trades": 17,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "tp_first_diagnostic",
+      "portfolio": "B_shock_recovery",
+      "trades": 6,
+      "timing_bracket_cash_volume_checks_passed": true
+    },
+    {
+      "partition": "oos",
+      "case": "tp_first_diagnostic",
+      "portfolio": "AB_one_position",
+      "trades": 23,
+      "timing_bracket_cash_volume_checks_passed": true
+    }
+  ]
+}

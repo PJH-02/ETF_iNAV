@@ -1,0 +1,54 @@
+{
+  "total_common_days": 251,
+  "is_days": 200,
+  "oos_locked_days": 51,
+  "is_first": "2025-09-22",
+  "is_last": "2026-07-21",
+  "oos_first_locked": "2026-07-22",
+  "oos_last_locked": "2026-10-06",
+  "oos_metrics_computed": false,
+  "input": "market_1m_data\\KOSPI200_FUT_ETF_1m_aligned.csv",
+  "input_timestamp_semantics": "bar_start",
+  "full_bar_feature_available_at": "bar_start + 1 minute",
+  "normalization": "rolling prior 60 IS trading days, same 5m time bucket",
+  "min_history_obs_per_bucket": 80,
+  "f1_gap_quantile": 0.9,
+  "f1_lookbacks_min": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "f1_holds_min": [
+    1,
+    3,
+    5,
+    10
+  ],
+  "f1_state_filters": [
+    "all_positive_gap",
+    "future_up_lead",
+    "etf_downside_overshoot",
+    "sign_divergence"
+  ],
+  "entry_delay_bars": 1,
+  "f1_entry": "signal bar completes -> ETF open 1 bar(s) later",
+  "f1_exit": "fixed open-to-open holding horizon",
+  "f2_entry_condition": "previous FUT bar volume > same-bucket rolling median AND abs(C-O) <= same-bucket rolling median; current FUT close > previous FUT close; then ETF open 1 bar(s) later",
+  "f2_holds_min": [
+    5,
+    10
+  ],
+  "f2_exit": "fixed open-to-open holding horizon",
+  "starting_cash": 10000000.0,
+  "order_notional": 1000000.0,
+  "fee_bps_per_side": 1.0,
+  "slippage_bps_per_side": 1.0,
+  "positioning": "long/flat, fixed notional, one position at a time per scenario, no pyramiding",
+  "execution_limitations": [
+    "minute OHLCV only; no historical bid/ask spread",
+    "no queue/partial-fill model",
+    "ETF open is used as boundary execution reference plus adverse slippage"
+  ],
+  "f3_used_as_gate": false
+}

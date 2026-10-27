@@ -1,0 +1,8 @@
+{
+  "rows": 52937,
+  "bar_size_minutes": 1,
+  "all_available_at_equals_bar_start_plus_1m": true,
+  "feature_timestamp_semantics": "full-bar OHLCV features usable at available_at=bar_end only",
+  "seasonality_bucket_semantics": "bucket by bar_start interval; thresholds become usable only at bar_end",
+  "fwd_1m_semantics": "close(current completed bar) -> close(next completed bar)"
+}

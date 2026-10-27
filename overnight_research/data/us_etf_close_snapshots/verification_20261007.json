@@ -1,0 +1,63 @@
+{
+  "self_tests_passed": 14,
+  "source_sha256": "c5d7a47600c8d70b7095bb41755df9169f129e51db5477a40d8697605c745eb4",
+  "rows": 2342,
+  "panel_days": 1171,
+  "first_day": "2021-12-20",
+  "last_day": "2026-10-06",
+  "both_asof_usable_1520_days": 1171,
+  "both_exact_trade_1520_days": 348,
+  "no_future_or_cross_day_asof": true,
+  "original_inputs": [
+    {
+      "path": "overnight_research/data/304940_1500_1530_1m.csv",
+      "sha256": "c20005297947a6fe81ce7b4e6910dbc3fbbfb75eb2190323f5ba498aba77ab19",
+      "unchanged": true
+    },
+    {
+      "path": "overnight_research/data/304940_daily.csv",
+      "sha256": "0d39922502edf6bae21541cdb3a2dd9fadcb37987a0f38f58eec2570b1e0d616",
+      "unchanged": true
+    },
+    {
+      "path": "overnight_research/data/219480_1500_1530_1m.csv",
+      "sha256": "065a1ef4b3040bc3d88bd6f5b00b89c6aa0134035332d1ce00444f5c5e82fbf0",
+      "unchanged": true
+    },
+    {
+      "path": "overnight_research/data/219480_daily.csv",
+      "sha256": "0dbc1c35c19e0a4e2a9b9db2054229d45d7ddb69d35248c17c51d8f647247395",
+      "unchanged": true
+    },
+    {
+      "path": "overnight_research/data/KODEX200_069500_daily_20100101_20260928.csv",
+      "sha256": "1a75fbafac9706aeec5ee2700213b82bd1a16cf702581410269804e8292b93b5",
+      "unchanged": true
+    }
+  ],
+  "live_provider_cross_checks": [
+    {
+      "symbol": "304940",
+      "prices_and_times_match": true,
+      "days": 5
+    },
+    {
+      "symbol": "219480",
+      "prices_and_times_match": true,
+      "days": 5
+    }
+  ],
+  "early_2021_daily_probe": {
+    "dates": [
+      "2021-01-04",
+      "2021-01-08"
+    ],
+    "symbols": [
+      "304940",
+      "219480"
+    ],
+    "daily_rows_per_symbol": 5,
+    "minute_rows_per_symbol": 0,
+    "artifact": "early_2021_checked/snapshots.csv"
+  }
+}

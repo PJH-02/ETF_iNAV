@@ -1,0 +1,75 @@
+{
+  "status": "PASS",
+  "input_load_checks": [
+    {
+      "loader": "bt.load_kodex200",
+      "rows": 4119,
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\KODEX200_069500_daily_20100101_20260928.csv"
+    },
+    {
+      "loader": "bt.load_minute(304940)",
+      "rows": 71126,
+      "paths": [
+        "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\304940_1430_1500_1m.csv",
+        "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\304940_1500_1530_1m.csv"
+      ]
+    },
+    {
+      "loader": "bt.load_minute(219480)",
+      "rows": 71126,
+      "paths": [
+        "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\219480_1430_1500_1m.csv",
+        "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\219480_1500_1530_1m.csv"
+      ]
+    },
+    {
+      "loader": "quantile.load_daily(069500)",
+      "rows": 4118
+    },
+    {
+      "loader": "quantile.load_daily(304940)",
+      "rows": 1222
+    },
+    {
+      "loader": "quantile.load_daily(219480)",
+      "rows": 1222
+    },
+    {
+      "loader": "quantile.load_daily(QQQ)",
+      "rows": 1254
+    },
+    {
+      "loader": "quantile.load_daily(SPY)",
+      "rows": 1254
+    },
+    {
+      "loader": "quantile.load_late_features(304940)",
+      "rows": 1165
+    },
+    {
+      "loader": "quantile.load_1m(304940)",
+      "rows": 36115
+    },
+    {
+      "loader": "quantile.load_late_features(219480)",
+      "rows": 1165
+    },
+    {
+      "loader": "quantile.load_1m(219480)",
+      "rows": 36115
+    },
+    {
+      "loader": "test.load_research_dataset",
+      "rows": 4119,
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\results\\analysis_output_us_oc\\research_dataset.csv",
+      "foreign_input_exists": true
+    },
+    {
+      "loader": "f1_f2_f3_minute_eda_aligned_causal.load_research",
+      "rows": 4119,
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\results\\analysis_output_us_oc\\research_dataset.csv",
+      "foreign_input_exists": true
+    }
+  ],
+  "backtests_rerun": false
+}

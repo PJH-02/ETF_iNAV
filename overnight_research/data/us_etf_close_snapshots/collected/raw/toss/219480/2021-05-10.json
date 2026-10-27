@@ -1,0 +1,10 @@
+{
+  "provider": "toss",
+  "symbol": "219480",
+  "requested_day": "2021-05-10",
+  "interval": "1m",
+  "adjusted": false,
+  "pages": 1,
+  "candles": [],
+  "retrieved_at_utc": "2026-10-07T08:21:47.044487+00:00"
+}

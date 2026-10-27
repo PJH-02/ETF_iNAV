@@ -1,0 +1,24 @@
+{
+  "provider": "kiwoom",
+  "symbol": "304940",
+  "requested_day": "2021-12-21",
+  "interval": "1m",
+  "adjusted": false,
+  "pages": 1,
+  "candles": [
+    {
+      "cur_prc": "",
+      "trde_qty": "",
+      "cntr_tm": "",
+      "open_pric": "",
+      "high_pric": "",
+      "low_pric": "",
+      "acc_trde_qty": "",
+      "pred_pre": "",
+      "pred_pre_sig": "",
+      "upd_stkpc_tp": "",
+      "upd_rt": ""
+    }
+  ],
+  "retrieved_at_utc": "2026-10-07T07:29:29.041880+00:00"
+}

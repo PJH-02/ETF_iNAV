@@ -1,0 +1,102 @@
+{
+  "start_requested": "2021-01-01",
+  "end_requested": "2026-09-28",
+  "provider": "offline",
+  "symbols": [
+    "304940",
+    "219480"
+  ],
+  "local_inputs": [
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\KODEX200_069500_daily_20100101_20260928.csv",
+      "sha256": "1a75fbafac9706aeec5ee2700213b82bd1a16cf702581410269804e8292b93b5",
+      "role": "KRX_trading_dates_only_no_price_substitution"
+    },
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\304940_1500_1530_1m.csv",
+      "sha256": "c20005297947a6fe81ce7b4e6910dbc3fbbfb75eb2190323f5ba498aba77ab19",
+      "role": "imported_original_local_history"
+    },
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\304940_daily.csv",
+      "sha256": "0d39922502edf6bae21541cdb3a2dd9fadcb37987a0f38f58eec2570b1e0d616",
+      "role": "imported_original_daily_history"
+    },
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\219480_1500_1530_1m.csv",
+      "sha256": "065a1ef4b3040bc3d88bd6f5b00b89c6aa0134035332d1ce00444f5c5e82fbf0",
+      "role": "imported_original_local_history"
+    },
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\219480_daily.csv",
+      "sha256": "0dbc1c35c19e0a4e2a9b9db2054229d45d7ddb69d35248c17c51d8f647247395",
+      "role": "imported_original_daily_history"
+    }
+  ],
+  "collection": [
+    {
+      "symbol": "304940",
+      "expected_calendar_days": 1405,
+      "provider": "offline",
+      "first_calendar_day": "2021-01-04",
+      "last_calendar_day": "2026-09-28",
+      "daily_prices_first": "2021-09-28",
+      "daily_prices_last": "2026-09-28",
+      "calendar_reference_used": true,
+      "calendar_has_dates_before_start": true
+    },
+    {
+      "symbol": "219480",
+      "expected_calendar_days": 1405,
+      "provider": "offline",
+      "first_calendar_day": "2021-01-04",
+      "last_calendar_day": "2026-09-28",
+      "daily_prices_first": "2021-09-28",
+      "daily_prices_last": "2026-09-28",
+      "calendar_reference_used": true,
+      "calendar_has_dates_before_start": true
+    }
+  ],
+  "coverage": [
+    {
+      "symbol": "304940",
+      "calendar_days": 1405,
+      "usable_1520_days": 594,
+      "first_observed_1520": "2021-12-20",
+      "first_usable_1520": "2021-12-20",
+      "last_usable_1520": "2026-09-16",
+      "asof_usable_1520_days": 1166,
+      "first_asof_usable_1520": "2021-12-20",
+      "missing_1520_days": 239,
+      "no_trade_1520_days": 572
+    },
+    {
+      "symbol": "219480",
+      "calendar_days": 1405,
+      "usable_1520_days": 516,
+      "first_observed_1520": "2021-12-20",
+      "first_usable_1520": "2021-12-20",
+      "last_usable_1520": "2026-09-02",
+      "asof_usable_1520_days": 1166,
+      "first_asof_usable_1520": "2021-12-20",
+      "missing_1520_days": 239,
+      "no_trade_1520_days": 650
+    }
+  ],
+  "api_calls": 0,
+  "auth_refreshes": 0,
+  "toss_bar_label": "end",
+  "kiwoom_bar_label": "start",
+  "return_baseline": "KRX ETF open / previous KRX close; not QQQ/SPY PREUS",
+  "execution": "No fills simulated; normal KRX closing auction is 15:30",
+  "missing_policy": "Keep calendar rows; exact price fields never forward filled; asof fields identify earlier same-day trades and their age",
+  "asof_policy": "Last positive-volume same-day bar available at cutoff, within 60 minutes; not a simulated fill price",
+  "source_code_sha256": "c5d7a47600c8d70b7095bb41755df9169f129e51db5477a40d8697605c745eb4",
+  "output_sha256": {
+    "219480_snapshots.csv": "e114ad698af7f52b885f86f5933160588020b99406a45273d49020aa5854686d",
+    "304940_snapshots.csv": "ea741fceba70a38e9949acba8efb9b09e8823344f0e2782c3ae9bddabffff15e",
+    "coverage.csv": "481d476d9bcf322b6160549bf23b47f72337cca202114e03f926e2e7fb6f136b",
+    "proxy_panel.csv": "ac436e4fe56813c6fe9b8bad8beaf500c379734477126e6a1da005dc0aac094c",
+    "snapshots.csv": "a562f34edce05bb65fb95a04de0736b9603557f91df84bbca4b914d2ccd546b6"
+  }
+}

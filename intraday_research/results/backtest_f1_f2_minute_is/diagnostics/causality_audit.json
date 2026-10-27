@@ -1,0 +1,10 @@
+{
+  "rows": 75677,
+  "all_full_bar_features_available_at_bar_end": true,
+  "entry_rule": "signal known at completed bar end; ETF entry 1 bar(s) later at open",
+  "entry_delay_bars": 1,
+  "exit_rule": "fixed holding horizon; ETF exit at future bar open",
+  "no_intrabar_high_low_fill_assumption": true,
+  "no_bbo_queue_model": true,
+  "oos_rows_used": false
+}

@@ -1,0 +1,1811 @@
+{
+  "provider": "toss",
+  "symbol": "304940",
+  "requested_day": "2022-11-23",
+  "interval": "1m",
+  "adjusted": false,
+  "pages": 1,
+  "candles": [
+    {
+      "timestamp": "2022-11-23T15:21:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:20:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "841",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:19:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:18:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "5",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:17:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2272",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:16:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "19",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:15:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:14:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:13:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2238",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:12:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:11:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2252",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:10:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2206",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:09:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:08:00.000+09:00",
+      "openPrice": "14615",
+      "highPrice": "14615",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2205",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:07:00.000+09:00",
+      "openPrice": "14615",
+      "highPrice": "14615",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2248",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:06:00.000+09:00",
+      "openPrice": "14615",
+      "highPrice": "14615",
+      "lowPrice": "14615",
+      "closePrice": "14615",
+      "volume": "270",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:05:00.000+09:00",
+      "openPrice": "14615",
+      "highPrice": "14615",
+      "lowPrice": "14615",
+      "closePrice": "14615",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:04:00.000+09:00",
+      "openPrice": "14615",
+      "highPrice": "14615",
+      "lowPrice": "14615",
+      "closePrice": "14615",
+      "volume": "2568",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:03:00.000+09:00",
+      "openPrice": "14615",
+      "highPrice": "14615",
+      "lowPrice": "14615",
+      "closePrice": "14615",
+      "volume": "2217",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:02:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:01:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T15:00:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:59:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:58:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2204",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:57:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:56:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "287",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:55:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14610",
+      "lowPrice": "14605",
+      "closePrice": "14610",
+      "volume": "4278",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:54:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14610",
+      "lowPrice": "14605",
+      "closePrice": "14610",
+      "volume": "6324",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:53:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14610",
+      "closePrice": "14610",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:52:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "74",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:51:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2204",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:50:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:49:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14600",
+      "closePrice": "14605",
+      "volume": "2241",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:48:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2239",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:47:00.000+09:00",
+      "openPrice": "14610",
+      "highPrice": "14610",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "2208",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:46:00.000+09:00",
+      "openPrice": "14605",
+      "highPrice": "14605",
+      "lowPrice": "14605",
+      "closePrice": "14605",
+      "volume": "4241",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:45:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14610",
+      "lowPrice": "14600",
+      "closePrice": "14610",
+      "volume": "9323",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:44:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14605",
+      "lowPrice": "14600",
+      "closePrice": "14605",
+      "volume": "4363",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:43:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "4192",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:42:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:41:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2253",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:40:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:39:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:38:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "4202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:37:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14595",
+      "volume": "2260",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:36:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "97",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:35:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14595",
+      "volume": "2311",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:34:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:33:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:32:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "6252",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:31:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:30:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:29:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2381",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:28:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:27:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "7226",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:26:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2211",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:25:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "9",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:24:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14595",
+      "volume": "2209",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:23:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:22:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:21:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2180",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:20:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "4222",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:19:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2227",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:18:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:17:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:16:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:15:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14595",
+      "volume": "2424",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:14:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "5",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:13:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2217",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:12:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:11:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:10:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:09:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "4404",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:08:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2208",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:07:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:06:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:05:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "3952",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:04:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2701",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:03:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:02:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2248",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:01:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T14:00:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:59:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:58:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:57:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2223",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:56:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:55:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:54:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "4396",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:53:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "7",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:52:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:51:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:50:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:49:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:48:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:47:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:46:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:45:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14595",
+      "volume": "2238",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:44:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14595",
+      "lowPrice": "14585",
+      "closePrice": "14595",
+      "volume": "2246",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:43:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:42:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:41:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:40:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:39:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:38:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2249",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:37:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:36:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2890",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:35:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:34:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "4402",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:33:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "20",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:32:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "3975",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:31:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "428",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:30:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:29:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:28:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:27:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14585",
+      "closePrice": "14585",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:26:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:25:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:24:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:23:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14585",
+      "closePrice": "14585",
+      "volume": "2212",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:22:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:21:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:20:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:19:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2302",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:18:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:17:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:16:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:15:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "4403",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:14:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:13:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:12:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:11:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2246",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:10:00.000+09:00",
+      "openPrice": "14585",
+      "highPrice": "14590",
+      "lowPrice": "14585",
+      "closePrice": "14590",
+      "volume": "6",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:09:00.000+09:00",
+      "openPrice": "14585",
+      "highPrice": "14585",
+      "lowPrice": "14585",
+      "closePrice": "14585",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:08:00.000+09:00",
+      "openPrice": "14580",
+      "highPrice": "14580",
+      "lowPrice": "14580",
+      "closePrice": "14580",
+      "volume": "12558",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:07:00.000+09:00",
+      "openPrice": "14585",
+      "highPrice": "14585",
+      "lowPrice": "14585",
+      "closePrice": "14585",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:06:00.000+09:00",
+      "openPrice": "14585",
+      "highPrice": "14585",
+      "lowPrice": "14585",
+      "closePrice": "14585",
+      "volume": "1",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:05:00.000+09:00",
+      "openPrice": "14585",
+      "highPrice": "14585",
+      "lowPrice": "14585",
+      "closePrice": "14585",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:04:00.000+09:00",
+      "openPrice": "14585",
+      "highPrice": "14585",
+      "lowPrice": "14580",
+      "closePrice": "14580",
+      "volume": "3102",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:03:00.000+09:00",
+      "openPrice": "14585",
+      "highPrice": "14585",
+      "lowPrice": "14585",
+      "closePrice": "14585",
+      "volume": "2474",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:02:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2214",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:01:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T13:00:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:59:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2206",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:58:00.000+09:00",
+      "openPrice": "14590",
+      "highPrice": "14590",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:57:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "2228",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:56:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:55:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14595",
+      "volume": "11287",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:54:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:53:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:52:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:51:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2277",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:50:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:49:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2211",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:48:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:47:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14600",
+      "volume": "2431",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:46:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:45:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14600",
+      "volume": "5532",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:44:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:43:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:42:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2222",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:41:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14600",
+      "volume": "4631",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:40:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "4429",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:39:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:38:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:37:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:36:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:35:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14600",
+      "closePrice": "14600",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:34:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:33:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2297",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:32:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2271",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:31:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2204",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:30:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:29:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14590",
+      "closePrice": "14590",
+      "volume": "5181",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:28:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:27:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2537",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:26:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:25:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2205",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:24:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:23:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2211",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:22:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:21:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:20:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:19:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:18:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:17:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2240",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:16:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "100",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:15:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:14:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:13:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:12:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:11:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:10:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:09:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2202",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:08:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:07:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:06:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "0",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:05:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:04:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "4203",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:03:00.000+09:00",
+      "openPrice": "14595",
+      "highPrice": "14595",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2201",
+      "currency": "KRW"
+    },
+    {
+      "timestamp": "2022-11-23T12:02:00.000+09:00",
+      "openPrice": "14600",
+      "highPrice": "14600",
+      "lowPrice": "14595",
+      "closePrice": "14595",
+      "volume": "2211",
+      "currency": "KRW"
+    }
+  ],
+  "retrieved_at_utc": "2026-10-07T07:30:36.027522+00:00"
+}

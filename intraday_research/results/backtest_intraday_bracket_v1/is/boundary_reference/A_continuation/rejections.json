@@ -1,0 +1,5 @@
+{
+  "after_entry_cutoff": 3,
+  "position_busy_at_open": 13,
+  "precommitted_cost_ceiling": 30
+}

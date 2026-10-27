@@ -1,0 +1,115 @@
+{
+  "spec_sha256": "7bb8a5a69d2bf6a59db7851b7fa12874626247c8361440d99632bc799a66d71e",
+  "spec": {
+    "version": "2.0.0",
+    "frozen_before_backtest_implementation": true,
+    "instrument": "069500",
+    "direction": "long_flat",
+    "fees_roundtrip_bp": 4,
+    "slippage_roundtrip_bp": [
+      0,
+      2,
+      4
+    ],
+    "primary_slippage_roundtrip_bp": 2,
+    "entry_delay_bars": 1,
+    "etf_tick_won": 5,
+    "normal_entry_last": "15:14",
+    "normal_liquidation": "15:19",
+    "late_entry": "15:00",
+    "closing_auction": "15:30",
+    "feature_minutes": 1,
+    "anchor_minutes": 5,
+    "normalization_days": 20,
+    "daily_regression_days": 252,
+    "minimum_model_rows": 100,
+    "tick_coverage_requirement": {
+      "complete_common_trading_days": 120,
+      "native_side_required_for_native_flow_claim": true,
+      "chart_tick_side": "tick_rule_proxy_only",
+      "partial_first_last_days_excluded": true,
+      "client_page_cap_is_not_server_floor": true
+    },
+    "primary_strategies": [
+      "T2_absorption",
+      "T3_pressure_breakout",
+      "D_market_demand"
+    ],
+    "fallback_strategies": [
+      "D_market_demand",
+      "M_breakout",
+      "M_open_close",
+      "M_investor_trend"
+    ],
+    "compression_quantile": 0.5,
+    "flow_lower_quantile": 0.25,
+    "flow_upper_quantile": 0.75,
+    "volume_quantile": 0.5,
+    "minimum_target_bp": 6,
+    "investor_percentile_lookback_days": 252,
+    "foreign_percentile_min": 0.7,
+    "institution_percentile_max": 0.3,
+    "investor_scope": "KOSPI200 aggregate spot cash net purchase amount",
+    "investor_sign_condition": "foreign > 0 AND institution < 0",
+    "investor_use": "previous trading day's value ranked against its preceding 252 trading days",
+    "universe": "previous trading day close KOSPI ordinary individual-security full-market-cap top 3; next day effective",
+    "market_demand_weights": "top3 market cap normalized within top3; fitted predictive factor, not ETF replication weights",
+    "target_rules": {
+      "T2_absorption": "pre-shock completed 5-minute volume-weighted trade price minus one ETF tick",
+      "T3_pressure_breakout": "pre-breakout 5-minute box high plus box height",
+      "D_market_demand": "current ETF close * (1 + prior-20-day OLS predicted next-5-minute ETF return), rounded down to tick",
+      "M_breakout": "pre-breakout 5-minute box high plus box height",
+      "M_open_close": "15:00 entry-reference * (1 + prior-252-day OLS predicted final-30-minute return), rounded down to tick",
+      "M_investor_trend": "same measured-move target as M_breakout, without compression gate"
+    },
+    "stop_rules": {
+      "T2_absorption": "shock-minute low minus one ETF tick",
+      "T3_pressure_breakout": "pre-breakout 5-minute box low minus one ETF tick",
+      "D_market_demand": "completed 5-minute low minus one ETF tick",
+      "M_breakout": "pre-breakout 5-minute box low minus one ETF tick",
+      "M_open_close": "14:30-15:00 completed range low minus one ETF tick",
+      "M_investor_trend": "completed 5-minute low minus one ETF tick"
+    },
+    "execution": "signal after minute closes; leave one whole minute for latency; entry following minute open (signal index + 2). Missing consecutive minutes cancel entry. TP requires high >= target + tick. Same-bar SL takes priority. Stop gap uses adverse open. Entry rejected if stop >= open or remaining target distance < 6bp. One position per strategy. Re-arm after raw setup false, and no new same-minute exit/re-entry.",
+    "eod": "normal strategies sell at 15:19 open; early-close/missing liquidation bar disables entire day. M_open_close includes actual 15:30 auction print if available, never treats it as continuous 15:29 trading. TP/SL continuous until 15:20; auction unresolved positions at actual auction print.",
+    "research_history": "All historical results exploratory. 2026-07-22..2026-10-06 prior OOS already consumed. No fresh OOS claims, no parameter grid or selection by best result."
+  },
+  "statuses": {
+    "M_breakout": "READY",
+    "M_open_close": "READY",
+    "D_market_demand": "MISSING_POINT_IN_TIME_UNIVERSE_AND_MEMBER_BARS",
+    "M_investor_trend": "MISSING_KOSPI200_AGGREGATE_INVESTOR_FLOW",
+    "T2_absorption": "TICK_COVERAGE_BELOW_120_COMPLETE_DAYS",
+    "T3_pressure_breakout": "TICK_COVERAGE_BELOW_120_COMPLETE_DAYS"
+  },
+  "inputs": {
+    "ETF": {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\market_1m_data\\KODEX200_069500_1m_toss.csv",
+      "sha256": "d696e525330494f1891c70a127d04a508e5d0af564edf59192fe428a5cc98bd6"
+    },
+    "tick_manifest": {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\kiwoom_research_data\\ticks\\069500\\20261007T093105555593\\manifest.json",
+      "sha256": "06bed4633d3eaa6d094821f8c5daddc5ea8035ae1a7b980bb49d1d8770049cdd"
+    },
+    "kiwoom_daily_closing_price_validation": {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\kiwoom_research_data\\069500_1d_kiwoom.parquet",
+      "sha256": "bf1bfc7d94112453db37528fdbce8e6f937c1cbcf609d822faa7a2007695c6c2"
+    },
+    "kiwoom_minute_validation": {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\kiwoom_research_data\\069500_1m_kiwoom.parquet",
+      "sha256": "6e97a136b03539bec41aecc9df6539c8d4d18eb282567af2f0ab1cbd720ae540"
+    }
+  },
+  "history_role": "EXPLORATORY_PREVIOUSLY_SEEN_HISTORY_NO_FRESH_OOS",
+  "run_date": "2026-10-07",
+  "eligible_regular_days": 933,
+  "excluded_days": 10,
+  "active_mode": "minute_fallback",
+  "dependency_code_sha256": {
+    "prepare_intraday_v2_data.py": "ccc6a9af60bfa92d29718034367f0498315ddfd3d34b0ccb0fdda2609dfd2cf2",
+    "intraday_bracket_backtest.py": "1caf010951aca16c5a0ba26cadb23514b2a7f2635b259dce558f52e57220ef8b",
+    "audit_intraday_v2_ticks.py": "8995950221f40cfb8734954ebf62f01fd87f65288989bb4f2b60d429e4401028"
+  },
+  "raw_etf_coverage": "2022-11-23..2026-10-06",
+  "source_code_sha256": "b5bb0df9e967d2a46479c26b195e7851a98269cefe985123bea80e47f63021b2"
+}

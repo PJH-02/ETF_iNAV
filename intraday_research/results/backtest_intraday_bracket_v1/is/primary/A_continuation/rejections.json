@@ -1,0 +1,7 @@
+{
+  "after_entry_cutoff": 3,
+  "bracket_touched_before_arrival": 4,
+  "position_busy_at_open": 12,
+  "precommitted_cost_ceiling": 28,
+  "invalid_bracket_at_open": 1
+}

@@ -1,0 +1,68 @@
+{
+  "status": "PASS",
+  "runs": [
+    {
+      "strategy": "M_breakout",
+      "slippage_roundtrip_bp": 0,
+      "trades": 3818,
+      "status": "PASS"
+    },
+    {
+      "strategy": "M_breakout",
+      "slippage_roundtrip_bp": 2,
+      "trades": 3818,
+      "status": "PASS"
+    },
+    {
+      "strategy": "M_breakout",
+      "slippage_roundtrip_bp": 4,
+      "trades": 3818,
+      "status": "PASS"
+    },
+    {
+      "strategy": "M_open_close",
+      "slippage_roundtrip_bp": 0,
+      "trades": 28,
+      "status": "PASS"
+    },
+    {
+      "strategy": "M_open_close",
+      "slippage_roundtrip_bp": 2,
+      "trades": 28,
+      "status": "PASS"
+    },
+    {
+      "strategy": "M_open_close",
+      "slippage_roundtrip_bp": 4,
+      "trades": 28,
+      "status": "PASS"
+    }
+  ],
+  "known_history": "EXPLORATORY_PREVIOUSLY_SEEN_HISTORY_NO_FRESH_OOS",
+  "spec_sha256": "7bb8a5a69d2bf6a59db7851b7fa12874626247c8361440d99632bc799a66d71e",
+  "outputs_sha256": {
+    "excluded_days.csv": "2e44e801e41544d9c860b1dee126f934d0ae7e89791c6cc4c5e991cdeaaf4184",
+    "morning_close_models.csv": "240c8c297923b7df8c47fe1761f8cfc22305baec87155daa8772258998f501cc",
+    "M_breakout_signals.csv": "c167540c02230d9d74618c87278c8362a88594125de6c9bacd6050f68f5b5a0a",
+    "M_breakout_slip0_monthly.csv": "a0845e72dce4efb199caa0a2996bea3b8b9745baa89e7a2980e62a313c14519b",
+    "M_breakout_slip0_rejections.csv": "db8620adc00550888d8c53b2c84bdb3e86ffb3979bbb3fe42f0a5ffa82c7d569",
+    "M_breakout_slip0_trades.csv": "c37c3c829911cad8b02404fcdfd62a53f45b86956797c0e7cc97ae3f0615e5d8",
+    "M_breakout_slip2_monthly.csv": "1ee91c69132052df993b9e9c386bc7566c42afba45e3174bddf4359e6d1067bf",
+    "M_breakout_slip2_rejections.csv": "db8620adc00550888d8c53b2c84bdb3e86ffb3979bbb3fe42f0a5ffa82c7d569",
+    "M_breakout_slip2_trades.csv": "f2a3be2948466f093663da212fb21fb3615d6ae3e787f60b20be5c86686b075b",
+    "M_breakout_slip4_monthly.csv": "79df00f360c1846fee427a083bd885f41462f572ca0db94c81f1bf4f4a5da5a0",
+    "M_breakout_slip4_rejections.csv": "db8620adc00550888d8c53b2c84bdb3e86ffb3979bbb3fe42f0a5ffa82c7d569",
+    "M_breakout_slip4_trades.csv": "5560cf115676eb9a79b9dc0e2e4dcac4929e55aa9e47c635d2bb3c04a2a40055",
+    "M_open_close_signals.csv": "36924ba82c7fb5b4b118214172bf9daa166a65650964fbe3de72d20366eef826",
+    "M_open_close_slip0_monthly.csv": "8c5a6b4e28590a127205a0d1c0d0a8aea0e6d0a690f6b25f3ab90a7ef691e3b8",
+    "M_open_close_slip0_rejections.csv": "d4892ee0fb984e796a958d450ac0a3f40b3a755c2dcf5ef43fb4e628a66f1454",
+    "M_open_close_slip0_trades.csv": "e6892433ca24984d6201600f52b0489d18dcce3d6be6466275c8be1f4937599f",
+    "M_open_close_slip2_monthly.csv": "9f07adb5c1b0cd3b2238aecb058525e4de3bb6b5df569ca60bb9eb087093a1ec",
+    "M_open_close_slip2_rejections.csv": "d4892ee0fb984e796a958d450ac0a3f40b3a755c2dcf5ef43fb4e628a66f1454",
+    "M_open_close_slip2_trades.csv": "3d61ee1e6e65353ded6ecfde8851988105369ac084cb056c0012b4db03c8c82e",
+    "M_open_close_slip4_monthly.csv": "c955df4db7a871290096b99d2ab4da9730febb208b74f4d3277d68081f6a63eb",
+    "M_open_close_slip4_rejections.csv": "d4892ee0fb984e796a958d450ac0a3f40b3a755c2dcf5ef43fb4e628a66f1454",
+    "M_open_close_slip4_trades.csv": "df8147ebab475480904c8ee3449620e697c742f25a49e0281620f29b37b305b8",
+    "summary.csv": "346fe5a8b5869c8354f97bbd1e6400d985a9b2bbf9dda5178b7aeaa92e3bbaad"
+  }
+}

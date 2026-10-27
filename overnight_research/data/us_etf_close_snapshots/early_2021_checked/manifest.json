@@ -1,0 +1,94 @@
+{
+  "start_requested": "2021-01-04",
+  "end_requested": "2021-01-08",
+  "provider": "toss",
+  "symbols": [
+    "304940",
+    "219480"
+  ],
+  "local_inputs": [
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\KODEX200_069500_daily_20100101_20260928.csv",
+      "sha256": "1a75fbafac9706aeec5ee2700213b82bd1a16cf702581410269804e8292b93b5",
+      "role": "KRX_trading_dates_only_no_price_substitution"
+    },
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\304940_1500_1530_1m.csv",
+      "sha256": "c20005297947a6fe81ce7b4e6910dbc3fbbfb75eb2190323f5ba498aba77ab19",
+      "role": "imported_original_local_history"
+    },
+    {
+      "path": "C:\\Users\\박제형\\Desktop\\ETF_iNAV\\overnight_research\\data\\219480_1500_1530_1m.csv",
+      "sha256": "065a1ef4b3040bc3d88bd6f5b00b89c6aa0134035332d1ce00444f5c5e82fbf0",
+      "role": "imported_original_local_history"
+    }
+  ],
+  "collection": [
+    {
+      "symbol": "304940",
+      "expected_calendar_days": 5,
+      "provider": "toss",
+      "first_calendar_day": "2021-01-04",
+      "last_calendar_day": "2021-01-08",
+      "daily_prices_first": "2020-12-04",
+      "daily_prices_last": "2021-01-08",
+      "calendar_reference_used": true,
+      "calendar_has_dates_before_start": true
+    },
+    {
+      "symbol": "219480",
+      "expected_calendar_days": 5,
+      "provider": "toss",
+      "first_calendar_day": "2021-01-04",
+      "last_calendar_day": "2021-01-08",
+      "daily_prices_first": "2020-12-04",
+      "daily_prices_last": "2021-01-08",
+      "calendar_reference_used": true,
+      "calendar_has_dates_before_start": true
+    }
+  ],
+  "coverage": [
+    {
+      "symbol": "304940",
+      "calendar_days": 5,
+      "usable_1520_days": 0,
+      "first_observed_1520": null,
+      "first_usable_1520": null,
+      "last_usable_1520": null,
+      "asof_usable_1520_days": 0,
+      "first_asof_usable_1520": null,
+      "missing_1520_days": 5,
+      "no_trade_1520_days": 0
+    },
+    {
+      "symbol": "219480",
+      "calendar_days": 5,
+      "usable_1520_days": 0,
+      "first_observed_1520": null,
+      "first_usable_1520": null,
+      "last_usable_1520": null,
+      "asof_usable_1520_days": 0,
+      "first_asof_usable_1520": null,
+      "missing_1520_days": 5,
+      "no_trade_1520_days": 0
+    }
+  ],
+  "api_calls": 13,
+  "auth_refreshes": 0,
+  "toss_bar_label": "end",
+  "kiwoom_bar_label": "start",
+  "return_baseline": "KRX ETF open / previous KRX close; not QQQ/SPY PREUS",
+  "execution": "No fills simulated; normal KRX closing auction is 15:30",
+  "missing_policy": "Keep calendar rows; exact price fields never forward filled; asof fields identify earlier same-day trades and their age",
+  "asof_policy": "Last positive-volume same-day bar available at cutoff, within 60 minutes; not a simulated fill price",
+  "source_code_sha256": "c5d7a47600c8d70b7095bb41755df9169f129e51db5477a40d8697605c745eb4",
+  "output_sha256": {
+    "219480_daily_toss.csv": "4e4c681c866548a68cc8a8b51b0bc7bcddeaaaa486759e35049257404d02485c",
+    "219480_snapshots.csv": "416f319276f653efd5872803b8b477f08e22c8059ae2aa81b000d6f634f30238",
+    "304940_daily_toss.csv": "1866c1358e3cc23f65ebcab0d6254df4f554da94af41a2674428e4bd52aead99",
+    "304940_snapshots.csv": "044594f7e37034ab0a72b217c4be867ebdca351616848e2b1b4493a2e16c85a6",
+    "coverage.csv": "90fb585f6d6826afbfd9f07c36467955e8a4ce3ae5332ad32a45b85039162f8d",
+    "proxy_panel.csv": "dc400756c5bd2bd722d658a330180a6f08d4137b22c352543394cc477a4acda5",
+    "snapshots.csv": "fa9e2b8b59ded6a872980e2239f3d3c51ec1449c3e4c7838858b93b0026541c3"
+  }
+}

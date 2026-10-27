@@ -1,0 +1,154 @@
+{
+  "scope": "Official public API metadata and source hashes. No market-data calls; Kiwoom oldest retained date was not measured.",
+  "sources": [
+    {
+      "name": "toss_rest",
+      "url": "https://openapi.tossinvest.com/openapi-docs/latest/openapi.json",
+      "public_request": true,
+      "authenticated_market_data_request": false,
+      "sha256": "7588debd863ac074e9e408185413ab573c3d45e9221e8cedaeec7c54ee295f03",
+      "retrieved_at_utc": "2026-10-07T00:11:25.359391+00:00",
+      "version": "1.2.19",
+      "trades": {
+        "parameters": [
+          {
+            "$ref": "#/components/parameters/SymbolQuery"
+          },
+          {
+            "name": "count",
+            "in": "query",
+            "required": false,
+            "description": "조회 건수 (최대 50)",
+            "schema": {
+              "type": "integer",
+              "default": 50,
+              "minimum": 1,
+              "maximum": 50
+            }
+          }
+        ],
+        "fields": [
+          "price",
+          "volume",
+          "timestamp",
+          "currency"
+        ],
+        "scope": "current_day_recent_trades"
+      },
+      "candle_parameters": [
+        "#/components/parameters/SymbolQuery",
+        "interval",
+        "count",
+        "before",
+        "adjusted"
+      ]
+    },
+    {
+      "name": "toss_realtime",
+      "url": "https://openapi.tossinvest.com/openapi-docs/latest/asyncapi.json",
+      "public_request": true,
+      "authenticated_market_data_request": false,
+      "sha256": "130251057fd9535a3e276099f9166b445f8c51f505f30540758e4b209231282e",
+      "retrieved_at_utc": "2026-10-07T00:11:25.438029+00:00",
+      "version": "1.2.2",
+      "verified_constraints": {
+        "lossy_market_data": true,
+        "sequence_for_loss_detection": false,
+        "cumulative_trade_volume": false,
+        "aggressor_side": false,
+        "kr_stream_venues": [
+          "KRX",
+          "NXT"
+        ]
+      }
+    },
+    {
+      "name": "kiwoom_tick",
+      "url": "https://openapi.kiwoom.com/guide/apiGuideContents/07/ka10079",
+      "public_request": true,
+      "authenticated_market_data_request": false,
+      "sha256": "7e29683bf1b1fb3c3c20f8bab6c39d9a94fb16f74e345fd680d3822f86f91eb5",
+      "retrieved_at_utc": "2026-10-07T00:11:25.501155+00:00",
+      "request_fields": [
+        "stk_cd",
+        "tic_scope",
+        "upd_stkpc_tp"
+      ],
+      "tick_scope_values": [
+        "1",
+        "3",
+        "5",
+        "10",
+        "30"
+      ],
+      "continuation_headers": [
+        "cont-yn",
+        "next-key"
+      ],
+      "output_fields_reviewed": [
+        "cur_prc",
+        "trde_qty",
+        "cntr_tm",
+        "open_pric",
+        "high_pric",
+        "low_pric",
+        "pred_pre",
+        "pred_pre_sig",
+        "upd_stkpc_tp",
+        "upd_rt"
+      ],
+      "timestamp_format": "YYYYMMDDHHmmss",
+      "maximum_retention_stated_in_reviewed_spec": false,
+      "aggressor_side_in_reviewed_output": false
+    },
+    {
+      "name": "kiwoom_today_previous",
+      "url": "https://openapi.kiwoom.com/guide/apiGuideContents/01/ka10084",
+      "public_request": true,
+      "authenticated_market_data_request": false,
+      "sha256": "ebe9976e05bf5c38fec8e95c9a0c655ee96bbafec14ae699a330d112459836cf",
+      "retrieved_at_utc": "2026-10-07T00:11:25.573465+00:00",
+      "request_fields": [
+        "stk_cd",
+        "tdy_pred",
+        "tic_min",
+        "tm"
+      ],
+      "available_day_selection": {
+        "1": "current_day",
+        "2": "previous_day"
+      },
+      "output_fields_reviewed": [
+        "tm",
+        "cur_prc",
+        "pri_sel_bid_unit",
+        "pri_buy_bid_unit",
+        "cntr_trde_qty",
+        "acc_trde_qty",
+        "cntr_str",
+        "stex_tp"
+      ]
+    },
+    {
+      "name": "kiwoom_realtime",
+      "url": "https://openapi.kiwoom.com/guide/apiGuideContents/14/0B",
+      "public_request": true,
+      "authenticated_market_data_request": false,
+      "sha256": "a7457e1e3f2ede027039ddc302815665dc6b2b2cc660bc30c93cff3f2c35aecc",
+      "retrieved_at_utc": "2026-10-07T00:11:25.653505+00:00",
+      "field_ids_reviewed": [
+        "15",
+        "13",
+        "228",
+        "1030",
+        "1031",
+        "1315",
+        "1316",
+        "27",
+        "28",
+        "9081"
+      ],
+      "signed_quantity_direction_documented": true
+    }
+  ]
+}
